@@ -1,0 +1,278 @@
+ body {
+     background-image: url(Assets/Background/Wave\ bnw\ BG.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     background-attachment: fixed;
+ }
+
+ header {
+     background-color: #000000;
+     color: white;
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     right: 0px;
+     height: 50px;
+     display: flex;
+     font-family: "Audiowide", sans-serif;
+ }
+
+ .header-title {
+     text-align: left;
+     color: white;
+     margin: 14px;
+     margin-left: 20px;
+     font-size: 18px;
+ }
+
+ nav {
+     position: absolute;
+     right: 0;
+     display: flex;
+ }
+
+ a {
+     text-decoration: none;
+     color: white;
+     float: left;
+     padding: 15px;
+ }
+
+ .PaintingCollection {
+     padding: 50x 100px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 50px;
+     background-color: #00000000;
+ }
+
+
+ .PaintingCollection h1 {
+     color: white;
+     font-size: 65px;
+     text-align: left;
+     margin-left: 100px;
+     margin-bottom: 10px;
+     font-family: 'Emblema One';
+     font-weight: bold;
+ }
+
+ .PaintingCollection h2 {
+     color: rgba(255, 255, 255, 0.466);
+     font-size: 25px;
+     text-align: left;
+     margin-left: 100px;
+     margin-top: 0px;
+     font-family: 'Emblema One';
+     font-weight: normal;
+ }
+
+ .PaintingCollection img {
+     width: 50px;
+     margin: 0px;
+     margin-right: 100px;
+     align-items: center;
+ }
+
+ .PaintingCollection button {
+     background-color: #ffffff;
+     padding: 10px;
+     color: rgb(0, 0, 0);
+     border-radius: 1px;
+     border: none;
+ }
+
+
+
+ .MainCatalogue {
+     flex-direction: row;
+     display: flex;
+     justify-content: center;
+ }
+
+ .PackageCatalogue {
+     margin: 20px;
+     padding: 16px;
+     border: 3px rgb(255, 255, 255);
+     border-radius: 0px;
+     background-color: white;
+
+     background-image: url(Assets/Background/Textured\ White\ BG.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .PackageCatalogue img {
+     width: 300px;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+ }
+
+ .PackageCatalogue h3 {
+     color: black;
+     font-size: 18px;
+     text-align: center;
+     font-family: 'Doppio One';
+ }
+
+ .PackageCatalogue h4 {
+     color: rgb(49, 49, 49);
+     font-size: 15px;
+     text-align: left;
+     width: 300px;
+     overflow-wrap: break-word;
+     font-family: 'Dosis';
+     font-weight: 500;
+ }
+
+ .PackageCatalogue h5 {
+     color: rgb(0, 0, 0);
+     text-align: left;
+     font-size: 15px;
+     font-family: 'Dosis';
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .PackageCatalogue h5 button {
+     background-color: #0000002a;
+     padding: 10px;
+     color: rgb(0, 0, 0);
+     border-radius: 0px;
+     border-color: black;
+     border: none;
+     display: flex;
+     align-self: right;
+ }
+
+ .left {
+     margin-left: 90%;
+ }
+
+ .ProductListHeading h1 {
+     justify-content: center;
+     display: flex;
+     color: rgb(255, 255, 255);
+     font-size: 25px;
+     text-align: center;
+     padding: 10px 15px;
+
+     width: fit-content;
+     padding: 10px 15px;
+     padding-left: 200px;
+     padding-right: 200px;
+     background: #000;
+     color: #fff;
+     font-size: 25px;
+
+     margin: 0 auto;
+ }
+
+ .ProductList table,
+ th,
+ td,
+ tr,
+ td {
+     border: 2px solid rgba(0, 0, 0, 0.219);
+     border-collapse: collapse;
+     padding: 10px;
+     background-color: #ffffff;
+ }
+
+ .ProductList td {
+     text-align: center;
+
+     background-image: url(Assets/Background/Textured\ White\ BG.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+
+ .ProductList th {
+     border: 2px solid rgba(0, 0, 0, 0.219);
+
+     background-image: url(Assets/Background/Textured\ White\ BG.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+
+ }
+
+ .ProductList {
+     display: flex;
+     justify-content: center;
+     text-align: center;
+ }
+
+ .ProductList img {
+     width: 200px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .ProductList Button {
+     background-color: #0000002a;
+     padding: 10px;
+     color: rgb(0, 0, 0);
+     border-radius: 0px;
+     border-color: rgb(0, 0, 0);
+     border: none;
+     margin-left: 20px;
+ }
+
+ input {
+     width: 100%;
+     display: inline-block;
+     margin-bottom: 10px;
+     padding: 5px;
+     border-radius: 3px;
+ }
+
+ label {
+     display: inline-block;
+     margin-bottom: 5px;
+     font-weight: bold;
+     color: #ffffff;
+ }
+
+ form {
+     text-align: left;
+     width: 50%;
+     margin-bottom: 200px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 100px
+ }
+
+ .footer {
+     color: white;
+     text-align: center;
+     background-color: #000000;
+     padding: 0px;
+     display: flex;
+     font-family: "Audiowide", sans-serif;
+     margin-left: 20px;
+
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     width: 100%;
+ }
+
+ .footer h4{
+    font-size: 0px;
+ }
+
+ .footer p {
+     margin-left: 50px;
+     padding: 10px;
+     display: flex;
+     align-items: center;
+     font-size: 10px;
+     font-weight: normal;
+ }
