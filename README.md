@@ -22,6 +22,8 @@ Handmade painting e-store
 └── style2.css
 ```
 The ``` script.js ``` is empty, so you can just leave it all out
+
+
 ALSOWW, all of the painting is made, photograph, and edited by ME!
 <br>
 
