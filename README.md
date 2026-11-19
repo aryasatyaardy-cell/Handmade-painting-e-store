@@ -23,3 +23,7 @@ Handmade painting e-store
 └── style2.css
 ```
 The ``` script.js ``` is empty, so you can just leave it all out
+ALSOWW, all of the painting is made, photograph, and edited by ME!
+<br>
+All this projects are open-source and free to use, modify, and redistribute with attribution required;
+commercial use is prohibited without prior written permission.
